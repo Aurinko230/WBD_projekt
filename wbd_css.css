@@ -1,0 +1,273 @@
+
+/* 
+    Created on : 16.10.2021, 10:36:53
+    Author     : Tyrqi
+*/
+
+
+  body {
+    background-color: red;
+   
+  }
+
+  .page{ width:95%;
+      border:1px solid blue;
+       margin: auto;
+  }
+  .main_area{
+         width:95%;
+          margin: auto;
+         border:1px solid green;
+  }
+  .article_preview{
+      width:95%;
+       margin: auto;
+  }
+   .article_preview h3{
+     color:cornsilk;
+     text-align: center;
+    
+  }
+    .article_preview .info{
+     color:lightslategray;
+     text-align: center;
+  }
+  
+  .m-menu{
+      width:40px;
+      height:40px;
+      display:block;
+      background-color:cornflowerblue;
+      border:1px solid deeppink;
+  }
+.menu{
+  background-color: yellow;
+  margin: 0;
+  padding: 0;
+  border: 1px solid greenyellow;
+  display: none;
+}
+.menu_item{
+    color:black;
+    border-bottom: 1px solid gray;
+    padding-top:3%;
+    padding-bottom:3%;
+    
+}
+.navigation{
+    border:1px solid darkcyan;
+     list-style-type: none;
+    padding-left: 0;
+}
+.navigation ol {
+    list-style-type: none;
+    padding-left: 0;
+}
+.navigation_item{
+     display: inline-block;
+}
+.navigation_item a::after {
+    display: inline-block;
+    color: #000;
+    content: '>';
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 3px;
+}
+    .projekt {
+        background-color:yellow;
+        color:red;
+        
+    }
+    .article_image{
+        width:80%;
+        height:80%;
+        background-color:gray;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .pages{
+        text-align: center;
+        
+    }
+    .page_item{
+        color:blue;
+        display: inline;
+    }
+    .page_item-selected{color:yellow;
+                  
+    
+      width:90%;
+      border:1px solid  pink;
+  }
+  
+  .comments{
+     border:2px solid orange;
+  }
+  .comments_item{
+          border:2px solid  green;
+  }
+  
+  .comments_item{
+  display: grid;
+  border:2px solid purple;
+  width:90%;
+  
+}
+.comment_image{
+  grid-row: 1  / span 2;
+  grid-column: 1 ;
+  border:2px solid yellow;
+
+}
+.comment_nickname{
+ grid-column: 2 ;
+ grid-row: 1 / span 2 ; 
+ border:2px solid blue;
+}
+.comment_text{
+ grid-column: 1 / span 3 ;
+  grid-row: 3 ;
+  border:2px solid yellow;
+}
+.comment_date{
+   grid-column: 3;
+  grid-row: 1;
+    border:2px solid purple;
+}
+.comment_time{
+  grid-column: 3 ;
+  grid-row: 2;
+  border:2px solid purple;
+}
+.profile_img{
+  width:60px;
+  height:60px;
+  border-radius: 50%;
+ background-color:lightcyan;}
+
+  
+        
+    
+
+
+@media (min-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+  projekt{
+    float: right;
+    width: 25%;
+  }
+   article {
+      border:1px solid red
+  }
+  
+   .m-menu{
+    color:burlywood;
+    display:none;
+    border:1px solid lightgoldenrodyellow;
+
+  }
+  .menu_item{
+    color:blueviolet;
+     display: inline;
+     padding-right:1em;
+     padding-left:1em;
+     padding-top:0%;
+    padding-bottom:0%;
+     border-bottom:none;
+     
+    
+}
+.menu{
+  background-color: goldenrod;
+  padding-top:1em;
+  padding-bottom:1em;
+  border: 3px solid greenyellow;
+  display:block;
+}
+.main_area{
+  display: grid;
+  grid-gap: 10px;
+    
+}
+ .article_preview{
+      //width:30%;
+      //float:left;   
+  }
+  
+  .item_1_2 {
+  grid-column: 3 ;
+  grid-row: 1;
+}
+  .item_2_2 {
+  grid-column: 3 ;
+  grid-row: 2;
+}
+
+  .item_3_1 {
+  grid-column: 1 ;
+  grid-row: 3;
+}
+
+  .item_3_2 {
+  grid-column: 2 ;
+  grid-row: 3;
+
+}
+  .item_3_3 {
+  grid-column: 3 ;
+  grid-row: 3;
+}
+
+.item_first {
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 2;
+}
+
+
+.comments_item{
+  display: grid;
+  border:2px solid purple;
+  width:90%;
+  
+}
+.comment_image{
+  grid-row: 1  / span 3;
+  grid-column: 1 ;
+  border:2px solid purple;
+
+}
+.comment_nickname{
+ grid-column: 2/ span 5 ;
+ grid-row: 1 ; 
+ border:2px solid purple;
+}
+.comment_text{
+ grid-column: 2 / span 5 ;
+  grid-row: 2 ;
+  border:2px solid purple;
+}
+.comment_date{
+   grid-column: 7;
+  grid-row: 1;
+    border:2px solid purple;
+}
+.comment_time{
+  grid-column: 7 ;
+  grid-row: 3;
+  border:2px solid purple;
+}
+.profile_img{
+  width:60px;
+  height:60px;
+  border-radius: 50%;
+ background-color:lightcyan;}
+}
+
+
+  
+ 
+
